@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+nav ul li a{
+    @apply text-[17px] mb-1 space-y-2 space-x-3 flex items-center  text-gray-500 font-bold py-2 hover:bg-gray-50  px-4 rounded-md
+}
+
+nav ul li a .icon{
+    @apply text-[22px] text-gray-500
+}
+
+.scrollbarDesign::-webkit-scrollbar{
+    width: 5px;
+}
+
+.scrollbarDesign::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 10px;
+}
