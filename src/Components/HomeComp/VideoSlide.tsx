@@ -24,7 +24,7 @@ const VideoSlide = () => {
 
   return (
     <div className='w-full h-full'  >
-        <div className="w-full  h-full">
+        <div className="w-full  overflow-auto scrollbarDesign h-full">
             {
                 videodata?.map((item:videoDataType) => {
                     return(

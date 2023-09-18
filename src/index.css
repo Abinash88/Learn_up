@@ -23,7 +23,7 @@ nav ul li a .icon{
 }
 
 .scrollbarDesign::-webkit-scrollbar{
-    width: 5px;
+    width: 8px;
 }
 
 .scrollbarDesign::-webkit-scrollbar-thumb{
