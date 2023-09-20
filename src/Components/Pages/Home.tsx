@@ -3,9 +3,9 @@ import VideoSlide from '../HomeComp/VideoSlide'
 
 const Home = () => {
   return (
-    <div className='flex-1 w-full p-5 h-[100vh] bg-gray-50'>
+    <div className='flex-1 w-full  px-5  h-[100vh]  '>
         <div className="w-full h-full">
-          <div className="h-full ">
+          <div className="h-full w-full flex ">
             <VideoSlide/>
           </div>
         </div>
